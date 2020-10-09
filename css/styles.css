@@ -47,9 +47,10 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     }
-    .data2{padding:0px 0px;
-
+    .data2{
+        padding:0px 0px;
     }
+
     .h1{
         border-color: chocolate;
     }
