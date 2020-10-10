@@ -18,7 +18,7 @@ function margherita() {
     var Margherita = 0;
     var addMargherita = document.getElementById("toppingone");
     if (addMargherita.checked === true) {
-        margherita= 5000;
+        margherita= 1000;
     }
     return parseInt(margherita);
 }
@@ -27,7 +27,7 @@ function sausage() {
     var sausage = 0;
     var addsausage = document.getElementById("toppingone");
     if (addsausage.checked === true) {
-        sausage = 4990;
+        sausage = 990;
     }
     return parseInt(sausage);
 }
@@ -35,7 +35,7 @@ function meat() {
     var meat = 0;
     var addonions = document.getElementById("toppingone");
     if (addMargherita.checked === true) {
-        meat = 4980;
+        meat = 980;
     }
     return parseInt(meat);
 }
@@ -43,7 +43,7 @@ function neapolitan() {
     var neapolitan = 0;
     var addneapolitan = document.getElementById("toppingone");
     if (addneapolitan.checked === true) {
-        neapolitan = 4970;
+        neapolitan = 970;
     }
     return parseInt(neapolitan);
 }
@@ -51,7 +51,7 @@ function mozarellaCheese() {
     var cheese = 0;
     var addmozarellaCheese = document.getElementById("toppingone");
     if (addmozarellaCheese.checked === true) {
-        cheese = 4960;
+        cheese = 960;
     }
     return parseInt(cheese);
 }
