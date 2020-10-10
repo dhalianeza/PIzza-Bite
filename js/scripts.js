@@ -61,7 +61,7 @@ function calctotalPrice(e) {
     var totalPrice = (getSizeCost() + getCrustCost() + (margherita)) * (getNumber());
     
         console.log(totalPrice);
-    alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
+    alert("Your order of " + getNumber() + " will be delivered in 15minutes.Your total amount payable is " + totalPrice +"." )
 
 }
 
