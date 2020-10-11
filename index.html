@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="css/styles.css">
    <title>PIZZA BITE</title>
     
-    </div>
+    
 </head>
 <body>
     <div class="container ">
@@ -85,10 +85,9 @@
    
  
 <div class="type">
-    
     <div class="jumbotron " id="about">
+      <div class="jumbtron">
       <h1 class="text-center what text-success">Types of Pizza</h1> 
-   
     <div class="row">
       <div class="col-sm text-success">
         <h3>Crispy</h3>
@@ -105,8 +104,8 @@
     </div>
   </div>
 </div>
-
-<div class="jumbotron" id="order">
+<div class="container" id="forth">
+    <div class="jumbotron" id="order">
    <h1 class="text-center what">Press your order</h1>
    <form action="" id="pizzainfo"></form>
    <label for="">enter your pizza bite size</label>
@@ -134,10 +133,19 @@
                     <button name="button" type="submit" id="submit" value="Check-Out"
                         onclick="calctotalPrice()">Submit</button>
 
-   </form>
-   </div>
-   
+  <div class="col-sm-5 text-center">
+    <div class="row text-center">
+        <div class="yourOrders">
+          <h3>Your orders</h3>
+              <ol id="items">
 
+              </ol>
+          <button type="button" class="btn btn-success" name="checkout" id="chckout"> checkout</button>
+        </div>
+      </div></div>
+</div>
+</div>
+</div>
 <div class=" jumbotron contact" id="contact">
    <div class="row text-center">
     <div class="col-sm text-success">
